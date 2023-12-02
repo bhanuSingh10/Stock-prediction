@@ -1,0 +1,78 @@
+.intro-container {
+   display: flex;
+   flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    
+    background-color: #f5f5f5; /* Set your desired background color */
+    font-family: monospace;
+  }
+  
+  .intro-content {
+  
+    color: rgb(223, 216, 216);
+    background-image: url('https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3RvY2t8ZW58MHx8MHx8fDA%3D');
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100%;
+    min-width: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+ flex-direction: column;
+   background-size: cover;
+  }
+  
+  .intro-title {
+    font-size: 6rem;
+  }
+  
+  .intro-description {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+  }
+  
+  .get-started > button{
+    padding: 1.5rem 4rem;
+background-color: rgb(73, 197, 73);
+font-size: 1.5rem;
+border-radius: 1rem;
+
+font-family: monospace;
+font-weight: bold;
+border: none;
+
+  }
+  .get-started > button:hover{
+    background-color:rgb(52, 144, 52) ;
+  }
+  
+  .giphy{
+height: 80vh;
+min-width: 50vh;
+
+  }
+
+  .stock-info{
+    display: flex;
+
+  }
+    .giphy-info{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    
+  } 
+  
+  .giphy-info > ul{
+ 
+    padding-top: 5%;
+    display: flex;
+    gap: 5rem;
+flex-direction: column;
+  }
+  .giphy-info > ul > li{
+color: white;
+font-size: 1.2rem;
+  }
