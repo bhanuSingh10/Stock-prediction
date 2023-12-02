@@ -1,9 +1,9 @@
 // src/components/IntroPage.js
 import React, { useState } from 'react';
-import axios from 'axios';
-import { useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
 import './IntroPage.css'
+import Introduction from '../Introduction/Introduction';
 const IntroPage = () => {
  
   return (
@@ -15,7 +15,8 @@ const IntroPage = () => {
           Welcome to the Stock Predictor app. Predict stock prices using time series analysis.
         </p>
       <div className='get-started'>
-<button>Get Started</button>
+      <Link>
+<button>Get Started </button></Link>
     </div>
       </div>
     </div>

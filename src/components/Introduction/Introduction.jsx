@@ -2,7 +2,7 @@ import React from 'react'
 import "./Introduction.css"
 export default function Introduction() {
   return (
-    <div>
+    <div className='introduction'>
       <div>
         <h1>Introduction</h1>
       
