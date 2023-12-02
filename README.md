@@ -15,7 +15,8 @@ For this section: we were presented the following scenario:
 
 In May 2020, MercadoLibre released its quarterly financial results. We were asked if the Google search traffic increased during that month, possibly in response to this event. To answer this question, I plotted the search trends for May 2020, calculated the total monthly traffic for that month, and compared that month to the median monthly traffic of the other months in the dataset.
 
-![an image showing the Google search trends for May of 2020](./images/may_trends.png)
+![Screenshot from 2023-12-02 11-56-09](https://github.com/bhanuSingh10/Stock-prediction/assets/133089376/c8bf2ea7-743f-4078-a642-acb26c96cd35)
+
 
 This calculation showed that there was an 8% increase in search trends in May compared to the median, and also the search trends seem to spike on May 5th. However, I don't think we have enough information to determine whether or not the release of the quarterly financial results was the cause of these increases.
 
@@ -63,8 +64,8 @@ From these plots we can see that our data does seem consistent with the above na
 Finally, for this section we were asked to find the correlation between the search trends, stock volatility, and hourly stock return.
 
 
+![Screenshot from 2023-12-02 11-56-22](https://github.com/bhanuSingh10/Stock-prediction/assets/133089376/2d6d2808-9f87-4e28-91fd-b8eb6809ceb9)
 
-![an image showing the correlation dataframe](./images/correlation_df.png)
 
 We can see that a 14% inverse relationship exists between the lagged search traffic and the stock volatility. A 1.8% positive correlation exists between the lagged search traffic and the stock price return.
 
@@ -72,7 +73,8 @@ We can see that a 14% inverse relationship exists between the lagged search traf
 
 In this section, I used Prophet to forecast patterns in the search data. The forecast predicts 2000 hours, or 80 days, into the future, on an hourly basis.
 
-![an image showing the forecast trends](./images/forecast_trends.png)
+![Screenshot from 2023-12-02 11-56-37](https://github.com/bhanuSingh10/Stock-prediction/assets/133089376/855c2c53-dfb0-49c9-b7ea-d29075313015)
+
 
 
 ## Forecasting Revenue Using Time-Series Models
