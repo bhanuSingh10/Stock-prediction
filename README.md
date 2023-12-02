@@ -1,7 +1,8 @@
 # Time Series Forecasting
 
 ## Overview and Purpose
-This project uses Pandas and along with time series data in the form of search traffic, stock prices, and daily revenue to identify trends and make predictions with the goal of maximizing profitability.
+This project utilizes Pandas to analyze time series data, such as search traffic, stock prices, and daily revenue, to identify trends and make predictions with the goal of maximizing profitability.
+
 
 
 ---
