@@ -41,28 +41,7 @@ In essence, the stock prediction project intertwines data science, machine learn
             <span className='pandas'><img src="https://facebook.github.io/prophet/static/wordmark.svg" alt="" /></span>
         </div>
        
-          
-          {/* <ul>
-           <li>
-            <h1></h1>
-            
-             <h1>React</h1>
-            </li> */}
-         
-           {/* <li>
-            <span><img src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" alt="" /></span>
-             <h1>React</h1>
-            </li>
-           <li>
-          <span className='pandas'><img src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="" /></span>
-             <h1>Pandas</h1>
-            </li>
-           <li>
-            
-          <span><img src="https://numpy.org/images/logo.svg" alt="" /></span>
-             <h1>NumPy</h1>
-            </li>
-          </ul> */}
+       
       </div>
     </div>
   )
