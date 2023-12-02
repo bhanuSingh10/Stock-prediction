@@ -32,9 +32,10 @@ df_mercado_trends.groupby(df_mercado_trends.index.weekofyear).mean().hvplot(
     title='MercadoLibre Google Search Trends by Week of Year',
     xlabel='Week of Year'
 )
-```
 
-![an image showing trends by week of year](./images/trends_week_of_year.png)
+
+![Screenshot from 2023-12-02 11-56-37](https://github.com/bhanuSingh10/Stock-prediction/assets/133089376/6a7ed1d0-14b1-4aa0-92f8-afa4e2a5ea8e)
+
 
 From these visualizations we can determine:
 
@@ -56,8 +57,10 @@ first_half_2020.hvplot(
     subplots=True).cols(1)
 ```
 
-![an image showing the search trends for the first half of 2020](./images/2020_search_trends.png)
-![an image showing the stock trends for the first half of 2020](./images/2020_stock_trends.png)
+![Screenshot from 2023-12-02 12-10-22](https://github.com/bhanuSingh10/Stock-prediction/assets/133089376/52fdf37a-abe5-414f-a652-c2f049577d58)
+
+![Screenshot from 2023-12-02 12-10-34](https://github.com/bhanuSingh10/Stock-prediction/assets/133089376/a3c50623-b117-45ce-8ea8-95112d1928af)
+
 
 From these plots we can see that our data does seem consistent with the above narrative. Although the stock prices and search traffic dropped after March of 2020, the stock prices more so, both did eventually recover. Starting in May 2020, the stock price began to climb past pre-pandemic levels.
 
